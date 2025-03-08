@@ -13,7 +13,8 @@ Questo progetto analizza un dataset di approvazione prestiti usando Python e div
 1. Clona il repository:
    git clone https://github.com/Antonioo27/loan_approval_project.git
 2. Crea un ambiente virtuale:
-   python -m venv venv source venv/bin/activate # (Windows: venv\Scripts\activate)
+   conda create --name loan_env
+   conda activate loan_env
 3. Installa le dipendenze:
    pip install -r requirements.txt
 4. Esegui il codice:
